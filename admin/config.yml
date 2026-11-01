@@ -4,7 +4,7 @@ backend:
   name: github
   repo: https://kyle20130422-hash.github.io/-/#community
   branch: main
-  base_url: https://YOUR-OAUTH-WORKER.workers.dev
+  base_url: https://kyle20130422-hash.github.io/-/#community
   auth_endpoint: /auth
 
 logo:
