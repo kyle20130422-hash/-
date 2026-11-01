@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211a18">
+  <meta name="description" content="迷幻の罐罐的 YouTube、社群、邏輯題目與故事入口。">
+  <title>迷幻の罐罐</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#youtube" aria-label="回到首頁">
+      <img id="site-logo" src="assets/logo.png" alt="迷幻の罐罐 Logo">
+      <span class="brand-name" id="brand-name">迷幻の罐罐</span>
+    </a>
+    <nav class="main-nav" aria-label="主要導覽">
+      <button class="nav-tab is-active" data-section="youtube" type="button">youtube</button>
+      <button class="nav-tab" data-section="community" type="button">其他社群區</button>
+      <button class="nav-tab" data-section="logic" type="button">邏輯區</button>
+      <button class="nav-tab" data-section="stories" type="button">故事</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-section is-active" id="section-youtube" aria-labelledby="youtube-heading">
+      <div class="channel-entry">
+        <div class="youtube-wordmark">
+          <img src="assets/youtube-brand.png" alt="YouTube">
+        </div>
+        <a id="channel-link" class="channel-link" href="https://www.youtube.com/@迷幻の罐罐" target="_blank" rel="noopener noreferrer">
+          <span id="channel-link-label">前往頻道</span><span class="external-mark" aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <div class="content-frame video-frame">
+        <div class="section-heading-row">
+          <h1 id="youtube-heading">yt 精選影片</h1>
+          <span class="section-kicker">FEATURED VIDEOS</span>
+        </div>
+        <div id="video-list" class="video-grid" aria-live="polite">
+          <p class="empty-state">目前還沒有精選影片，之後可以從後台新增。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section" id="section-community" aria-labelledby="community-heading" hidden>
+      <div class="section-intro">
+        <p class="eyebrow">FIND ME ELSEWHERE</p>
+        <h1 id="community-heading">其他社群區</h1>
+        <p class="section-description">社群、資源、工具與遊戲作品的入口。</p>
+      </div>
+      <div id="community-groups" class="community-groups" aria-live="polite">
+        <p class="empty-state">正在載入社群連結…</p>
+      </div>
+    </section>
+
+    <section class="page-section" id="section-logic" aria-labelledby="logic-heading" hidden>
+      <div class="section-intro centered-intro">
+        <p class="eyebrow">THINK / ANSWER / DISCOVER</p>
+        <h1 id="logic-heading">限時題目</h1>
+        <p class="section-description">試著解開目前開放的題目。</p>
+      </div>
+      <div id="quiz-list" class="quiz-list" aria-live="polite">
+        <p class="empty-state">目前沒有開放中的題目。</p>
+      </div>
+    </section>
+
+    <section class="page-section" id="section-stories" aria-labelledby="stories-heading" hidden>
+      <div class="section-intro centered-intro">
+        <p class="eyebrow">STORY ARCHIVE</p>
+        <h1 id="stories-heading">故事</h1>
+        <p class="section-description">以簡報的方式，一頁一頁閱讀故事。</p>
+      </div>
+      <div id="story-area" class="story-area" aria-live="polite">
+        <p class="empty-state">目前還沒有故事，之後可以從後台新增故事與投影片。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span id="footer-name">迷幻の罐罐</span>
+    <a href="admin/" class="admin-entry">管理入口</a>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/site.js" defer></script>
+</body>
+</html>

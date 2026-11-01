@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "title": "社群與聯絡管道",
+      "description": "追蹤我的社群與聯絡方式。",
+      "visible": true,
+      "links": [
+        {
+          "title": "迷幻國境內",
+          "url": "https://discord.gg/2X5VYujAX",
+          "description": "加入 Discord 社群。",
+          "visible": true
+        },
+        {
+          "title": "迷幻 Instagram",
+          "url": "https://www.instagram.com/kyle20130422/",
+          "description": "追蹤 Instagram。",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "資源與工具下載",
+      "description": "放置工具、素材與檔案下載連結。",
+      "visible": true,
+      "links": []
+    },
+    {
+      "title": "遊戲作品",
+      "description": "展示遊戲作品、試玩網址與作品介紹。",
+      "visible": true,
+      "links": []
+    }
+  ]
+}
