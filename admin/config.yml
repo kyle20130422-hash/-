@@ -2,9 +2,9 @@
 # base_url 要填你部署好的 OAuth Proxy URL（例如 Cloudflare Worker URL）。
 backend:
   name: github
-  repo: https://kyle20130422-hash.github.io/-/#community
+  repo: kyle20130422-hash/kyle-site
   branch: main
-  base_url: https://kyle20130422-hash.github.io/-/#community
+  base_url: https://cms-auth.netlify.app
   auth_endpoint: /auth
 
 logo:
