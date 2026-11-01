@@ -5,7 +5,7 @@ backend:
   repo: kyle20130422-hash/-
   branch: main
   base_url: https://cms-auth.netlify.app
-  auth_endpoint: implicit
+  auth_endpoint: /auth
 
 logo:
   src: "../assets/logo.png"
